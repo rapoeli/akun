@@ -1,0 +1,46 @@
+proxies:
+  - name: 𝘐𝘋 01
+    server: bayar.ruangguru.com
+    port: 80
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 0.huhakipit.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: 0.huhakipit.workers.dev
+    udp: true
+    
+  - name: 𝘚𝘎 01
+    server: bayar.ruangguru.com
+    port: 443
+    type: vless
+    uuid: 9dc2f457-ac7a-44ff-b36b-d1254234fa0f
+    tls: true
+    servername: igoroey.pages.dev
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: igoroey.pages.dev
+    
+  - name: 𝘚𝘎 02
+    server: bayar.ruangguru.com
+    port: 443
+    type: vless
+    uuid: 7466ae2d-8c43-4c23-9ef6-b91419afefc5
+    tls: true
+    servername: igoroey1.pages.dev
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: igoroey1.pages.dev
