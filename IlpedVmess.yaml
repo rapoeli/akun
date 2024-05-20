@@ -1,0 +1,102 @@
+proxies:
+  - name: 𝘐𝘋 𝘊𝘉𝘛𝘗
+    server: bayar.ruangguru.com
+    port: 443
+    type: vmess
+    uuid: e47743a0-bd8b-11ee-8573-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cbtp.xmbb.net
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: cbtp.xmbb.net
+    udp: true
+    
+  - name: 𝘐𝘋 𝘚𝘢𝘯𝘨𝘨𝘰𝘳𝘰
+    server: bayar.ruangguru.com
+    port: 443
+    type: vmess
+    uuid: c48dcf50-062b-11ef-a443-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 5.lowh.net
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: 5.lowh.net
+    udp: true
+    
+  - name: 𝘐𝘋 𝘏𝘦𝘳𝘻𝘢
+    server: bayar.ruangguru.com
+    port: 443
+    type: vmess
+    uuid: b504d090-062a-11ef-91d9-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 001.htmlcdn.net
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: 001.htmlcdn.net
+    udp: true  
+    
+  - name: 𝘚𝘎 𝘎𝘚
+    server: bayar.ruangguru.com
+    port: 443
+    type: vmess
+    uuid: 8220c4d0-062b-11ef-bc1a-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 2.htmlcdn.net
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: 2.htmlcdn.net
+    udp: true
+    
+  - name: 𝘚𝘎 𝘏𝘌
+    server: bayar.ruangguru.com
+    port: 443
+    type: vmess
+    uuid: 1fc4e360-062b-11ef-abe4-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 10.lowh.net
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: 10.lowh.net
+    udp: true
+    
+  - name: 𝘚𝘎 𝘏𝘦𝘳𝘻𝘢
+    server: bayar.ruangguru.com
+    port: 80
+    type: vmess
+    uuid: 02048330-1448-11ef-adcc-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 11.lowh.net
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: 11.lowh.net
+    udp: true
